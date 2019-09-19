@@ -68,7 +68,7 @@ def self.create_from_filename(name)
 end
     #class method should not only parse the filename correctly but should also save the song
   
- def self.destroy_all(name) 
+ def self.destroy_all() 
     #reset the state of the @@all class variable to an empty array thereby deleting all previous song instances.
     @@all.clear
  end
