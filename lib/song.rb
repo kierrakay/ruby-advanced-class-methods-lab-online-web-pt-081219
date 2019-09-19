@@ -59,9 +59,9 @@ def self.new_from_filename(name)
   # Thundercat [0]- For Love I Come.mp3 [1] is the ex in spec
 end
   
-def self.create_from_filename
-  
-  
+def self.create_from_filename(name)
+  song = self.new
+  song.name 
   
   
  end
