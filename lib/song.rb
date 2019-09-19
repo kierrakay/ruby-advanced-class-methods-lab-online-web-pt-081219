@@ -68,6 +68,6 @@ def self.create_from_filename(name)
 end
     #class method should not only parse the filename correctly but should also save the song
   
-  
+ def self.destroy_all(name) 
   
  end
