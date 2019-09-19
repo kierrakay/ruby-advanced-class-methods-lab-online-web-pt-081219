@@ -65,6 +65,6 @@ def self.create_from_filename(name)
   song.artist_name = (name.split(" - ")[0])
   @@all << self
   song
-  
+end
   
  end
