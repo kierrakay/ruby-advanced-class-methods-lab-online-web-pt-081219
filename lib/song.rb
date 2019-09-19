@@ -49,7 +49,7 @@ end
 end
 
 def self.new_from_filename(name)
-  song = song.new
+  song = self.new
   song.name = (name.split("-")[1].chomp("mp3"))
   song.artist_name = (name.split("-")[0])
   song
