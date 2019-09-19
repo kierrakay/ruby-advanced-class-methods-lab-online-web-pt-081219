@@ -56,6 +56,7 @@ def self.new_from_filename(name)
   
   # it's [1] cause the second element is the song so 1 = 2 
   # and the artist name is the first element which is 0
+  # Thundercat [0]- For Love I Come [1]
 end
   
   
