@@ -50,7 +50,7 @@ end
 
 def self.new_from_filename(name)
   song = song.new
-  song.name = (name.split("-")
+  song.name = (name.split("-").chomp()
   
   
   
