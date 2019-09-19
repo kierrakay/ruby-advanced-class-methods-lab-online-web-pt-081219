@@ -50,9 +50,12 @@ end
 
 def self.new_from_filename(name)
   song = self.new
-  song.name = (name.split(" - ")[0].chomp(".mp3"))
+  song.name = (name.split(" - ")[1].chomp(".mp3"))
   song.artist_name = (name.split(" - ")[0])
   song
+  
+  # it's [1] cause the second element is the song so 1 = 2 
+  # and the artist name is the first element which is 0
 end
   
   
