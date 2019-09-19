@@ -43,5 +43,6 @@ end
 #the above statement is saying do this(if it is true) or that (if the first thing is not true and the second thing is true)
  end
  
- 
+ def self.alphabetical
+   
  end
